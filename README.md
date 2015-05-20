@@ -1,4 +1,9 @@
-定时任务task
+定时任务task: 
+1.git ,maven ,web
+2.spring,mybatis,struts2
+3.quazrt,lucence
+4.solr or calywer
+
 1.寻找需要的内容
 2.纪录并存储下来
 3.分析模型
