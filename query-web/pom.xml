@@ -25,7 +25,8 @@
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
-		<dependencies></dependencies>
+		<dependencies>
+		</dependencies>
 	</dependencyManagement>
 	<build>
 		<finalName>query-web</finalName>
