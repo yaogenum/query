@@ -14,13 +14,13 @@
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
-			<groupId>com.cqupt.yaoge</groupId>
 			<artifactId>query-utils</artifactId>
+			<groupId>com.cqupt.yaoge</groupId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.cqupt.yaoge</groupId>
 			<artifactId>query-sou</artifactId>
+			<groupId>com.cqupt.yaoge</groupId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
