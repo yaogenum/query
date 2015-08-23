@@ -1,4 +1,4 @@
-package com.yaoge.utils;
+package com.yaoge.utils.property;
 
 import java.io.File;
 import java.io.FileInputStream;
