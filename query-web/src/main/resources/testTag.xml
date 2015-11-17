@@ -2,8 +2,9 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:myns="http://www.mycompany.com/schema/myns"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.mycompany.com/schema/myns http://www.mycompany.com/schema/myns/myns.xsd" >
+        https://github.com/yaogenum/query/blob/master/query-web/src/main/resources/conf
+         https://github.com/yaogenum/query/blob/master/query-web/src/main/resources/conf/spring-test.xsd" >
 
-    <myns:dateformat id="defaultDateFormat" pattern="yyyy-MM-dd HH:mm"
+    <conf:dateformat id="defaultDateFormat" pattern="yyyy-MM-dd HH:mm"
                      lenient="true" />
 </beans>
