@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conf="https://github.com/yaogenum/query/blob/master/query-web/src/main/resources/conf"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        https://github.com/yaogenum/query/blob/master/query-web/src/main/resources/conf
-         https://github.com/yaogenum/query/blob/master/query-web/src/main/resources/conf/spring-test.xsd" >
-
-    <conf:dateformat id="defaultDateFormat" pattern="yyyy-MM-dd HH:mm"
-                     lenient="true" />
-</beans>
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:dateformat="http://121.43.123.37/schema/dateformat"  
+    xsi:schemaLocation="  
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
+        http://121.43.123.37/schema/dateformat http://121.43.123.37/schema/dateformat/dateformat.xsd">  
+  
+    <dateformat:format id="defaultDateFormat" pattern="yyyy-MM-dd HH:mm"  
+        lenient="true" />
+</beans>  

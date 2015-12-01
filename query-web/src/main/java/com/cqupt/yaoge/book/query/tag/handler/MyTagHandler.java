@@ -6,7 +6,7 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
  */
 public class MyTagHandler extends NamespaceHandlerSupport{
     public void init() {
-        registerBeanDefinitionParser("dateformat",
+        registerBeanDefinitionParser("format",
                 new MyTagParser());
     }
 }
