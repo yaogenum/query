@@ -41,6 +41,10 @@
 		<module>query-utils</module>
 		<module>query-sou</module>
 		<module>query-web</module>
+		<module>query.biz</module>
+		<module>query.dao</module>
+		<module>query.api</module>
+		<module>query.service</module>
 	</modules>
 	<dependencies>
 		<dependency>
@@ -65,7 +69,7 @@
 				<artifactId>struts2-spring-plugin</artifactId>
 				<version>${struts.core.version}</version>
 			</dependency>
-
+			
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-core</artifactId>
@@ -140,6 +144,11 @@
 				<version>${spring.core.version}</version>
 			</dependency>
 
+			<dependency>  
+            	<groupId>org.springframework</groupId>  
+            	<artifactId>spring-aop</artifactId>  
+            	<version>${spring.core.version}</version>  
+        	</dependency>  
 
 			<dependency>
 				<groupId>javax.servlet</groupId>
